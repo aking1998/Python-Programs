@@ -1,11 +1,11 @@
 # Guess the number
 
-n=int(input("Enter number to be guessed : "))
+number_to_be_guessed=int(input("Enter number to be guessed : "))
 num=1
 
 while num<4:
     guess = int(input("Guess : "))
-    if guess == n:
+    if guess == number_to_be_guessed:
         print("Correct guess!!")
     else:
         num = num + 1
